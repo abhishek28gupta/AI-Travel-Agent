@@ -85,6 +85,3 @@ The email integration is implemented using the **human-in-the-loop** feature, al
 ## Learn More
 For a detailed explanation of the underlying technology, check out the full article on Medium:
 [Building Production-Ready AI Agents with LangGraph: A Real-Life Use Case](https://medium.com/cyberark-engineering/building-production-ready-ai-agents-with-langgraph-a-real-life-use-case-7bda34c7f4e4))
-
-## License
-Distributed under the MIT License. See LICENSE.txt for more information.
