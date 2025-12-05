@@ -118,40 +118,6 @@ def process_query(user_input):
     else:
         print("process_query: No user input provided.")
         st.error('Please enter a travel query.')
-
-
-# def render_email_form():
-#     send_email_option = st.radio('Do you want to send this information via email?', ('No', 'Yes'))
-#     if send_email_option == 'Yes':
-#         with st.form(key='email_form'):
-#             sender_email = st.text_input('Sender Email')
-#             receiver_email = st.text_input('Receiver Email')
-#             subject = st.text_input('Email Subject', 'Travel Information')
-#             submit_button = st.form_submit_button(label='Send Email')
-
-#         if submit_button:
-#             if sender_email and receiver_email and subject:
-#                 send_email(sender_email, receiver_email, subject, st.session_state.thread_id)
-#             else:
-#                 st.error('Please fill out all email fields.')
-
-
-# def main():
-#     initialize_agent()
-#     render_custom_css()
-#     user_input = render_ui()
-
-#     if st.button('Get Travel Information'):
-#         process_query(user_input)
-
-#     if 'travel_info' in st.session_state:
-#         render_email_form()
-
-
-# if __name__ == '__main__':
-#     main()
-
-# pylint: disable = invalid-name
 import os
 import uuid
 import streamlit as st
@@ -160,7 +126,6 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
-
 
 # Load environment variables
 load_dotenv()
