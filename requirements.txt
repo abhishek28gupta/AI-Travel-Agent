@@ -9,16 +9,13 @@ langchain-openai
 langgraph
 streamlit
 python-dotenv
-
 langchain
 langchain-core
 langchain-openai
 langchain-google-genai
 langgraph
-
 openai
 google-generativeai
-
 sendgrid
 requests
 google-search-results
