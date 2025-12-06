@@ -57,7 +57,7 @@ Once launched, simply enter your travel request. For example:
 > I want to travel to Amsterdam from Madrid from October 1st to 7th. Find me flights and 4-star hotels.
 
 
-![photo1](https://github.com/user-attachments/assets/eb12d697-a445-4b13-b084-d2052f91d7bc)
+![photo1]()
 
 The chatbot will generate results that include logos and links for easy navigation.
 
@@ -68,16 +68,16 @@ The chatbot will generate results that include logos and links for easy navigati
 
 - Flight and hotel options with relevant logos and links for easy reference:
 
-![photo2](https://github.com/user-attachments/assets/741e010c-22cf-4d31-a518-441b076ec58f)
+![photo2]()
 
-![photo3](https://github.com/user-attachments/assets/a29173c7-852d-41ab-b3fe-94e6cca83c78)
+![photo3]()
 
 
 #### Email Integration
 The email integration is implemented using the **human-in-the-loop** feature, allowing you to stop the agent execution and return control back to the user, providing flexibility in managing the travel data before sending it via email.
 
-![photo4](https://github.com/user-attachments/assets/53775c87-7881-40c3-9b23-2885ed020e46)
+![photo4]()
 
 - Travel data formatted in HTML, delivered straight to your inbox:
-![photo5](https://github.com/user-attachments/assets/02641ce1-b303-4020-9849-7d77f596a6ba)
-![photo6](https://github.com/user-attachments/assets/1c3d8a35-148d-4144-829a-b1db6e3b3dde)
+![photo5]()
+![photo6]()
